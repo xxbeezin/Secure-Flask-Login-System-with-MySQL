@@ -12,13 +12,58 @@ This project demonstrates how to create a secure login system using Python Flask
 
 ## Getting Started
 
-To run this project locally, follow these steps:
+To run this project, you'll need to set up a virtual environment and install the dependencies. Here's how you can do it:
 
-1. Clone this repository.
-2. Install the required dependencies: `pip install -r requirements.txt`.
-3. Set up your MySQL database and update the `config.py` file with your database credentials.
-4. Run the Flask application: `python app.py`.
-5. Open your web browser and navigate to `http://localhost:5000`.
+1. Clone this repository:
+
+   ```
+   git clone https://github.com/your-username/your-repository.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```
+   cd your-repository
+   ```
+
+3. Create a virtual environment:
+
+   ```
+   python -m venv venv
+   ```
+
+4. Activate the virtual environment:
+
+   - On Windows:
+     ```
+     venv\Scripts\activate
+     ```
+   - On macOS and Linux:
+     ```
+     source venv/bin/activate
+     ```
+
+5. Install the dependencies:
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+6. Set up your MySQL database and update the `config.py` file with your database credentials.
+
+7. Run the Flask application:
+
+   ```
+   python app.py
+   ```
+
+8. Open your web browser and navigate to `http://localhost:5000` to see the login page.
+
+9. When you're done, deactivate the virtual environment:
+
+   ```
+   deactivate
+   ```
 
 ## Contributing
 
